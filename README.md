@@ -6,7 +6,7 @@
 
 <div align="center">
 <h3 align="center">macOS Big Sur running on a Sony VAIO SVE Series laptop</h3>
-<p align="center">(more details later !)</p>
+<p align="center">Preview : https://www.youtube.com/watch?v=GmYw0SaXf_E</p>
 </div>
 
 ---
@@ -14,7 +14,6 @@
 <br>
 
 ## ⚙️ What's (not) working ?
-<p>(Pretty much everything important works actually !)</p>
 
 - ✅ <b>Integrated GPU (Intel HD Graphics 4000)</b>
 - ✅ <b>Audio: both Internal Speakers/Headphones Jack</b> 
