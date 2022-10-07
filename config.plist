@@ -299,12 +299,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)
-			</key>
-			<dict>
-				<key>layout-id</key>
-				<integer>20</integer>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>#pci-aspm-default</key>
@@ -317,6 +311,12 @@
 				<string>Network controller</string>
 				<key>model</key>
 				<string>BCM4331 802.11ac Wireless Network Adapter</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)
+			</key>
+			<dict>
+				<key>layout-id</key>
+				<integer>20</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -1237,13 +1237,15 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>Not signed for security reasons</string>
+				<string>Windows11</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
+				<key>Flavour</key>
+				<string>Windows10:Windows</string>
 				<key>Name</key>
-				<string>CustomOS</string>
+				<string>Windows 11</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(1,GPT,CE07DC27-6D9C-4AE5-BE86-A7F0DE654AD2,0x28,0x64000)/\EFI\Microsoft\Boot\bootmgfw-old.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1589,13 +1591,13 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02450108CDFJQW1F</string>
+			<string>C02526500QXFP52UE</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>581FAA814500</data>
+			<data>5453edb5ef56</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1603,9 +1605,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro11,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02NT09KG86R</string>
+			<string>C02PXGY5FR1M</string>
 			<key>SystemUUID</key>
-			<string>9D2DABB6-4DE6-4CD7-B45F-A41D61D7B9F5</string>
+			<string>C075A803-C020-41B6-8050-BBFBF952DFA6</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
